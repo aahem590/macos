@@ -7,7 +7,7 @@ services:
       USERNAME: "Dr-Osama"
       PASSWORD: "osama"
       RAM_SIZE: "8G"
-      CPU_CORES: "2"
+      CPU_CORES: "4"
       DISK_SIZE: "990G"
     devices:
       - /dev/kvm
