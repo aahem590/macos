@@ -1,9 +1,14 @@
 services:
   macos:
-    image: dockurr/macos
-    container_name: macos
+    image: dockurr/windows
+    container_name: windows
     environment:
-      VERSION: "13"
+      VERSION: "11"
+      USERNAME: "Dr-Osama"
+      PASSWORD: "osama"
+      RAM_SIZE: "8G"
+      CPU_CORES: "2"
+      DISK_SIZE: "990G"
     devices:
       - /dev/kvm
       - /dev/net/tun
